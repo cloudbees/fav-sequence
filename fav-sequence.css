@@ -1,0 +1,11 @@
+.fav {
+  width: 30px;
+  height: 30px;
+  background: url(svg/new-sprite.svg) no-repeat;
+  background-position: 0 0;
+}
+
+.fav:hover {
+  background-position: -480px 0;
+  transition: background .75s steps(16);
+}
